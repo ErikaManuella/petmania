@@ -1,6 +1,8 @@
 import db from "@/lib/db"
-export default async () => {
-    const alunos = await db.query("select * from usuario")
+import React from "react";
+
+export default async function App() {
+    const alunos = await db.query("SELECT * FROM usuario")
  return (<>
     <h1>Lista de alunos</h1>
     <div>

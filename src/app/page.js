@@ -1,7 +1,7 @@
 import styles from "./page.module.css";
 
 
-export default function Agenda() {
+/**export default function Agenda() {
   return (
     <div>
     <header className={styles.header}>
@@ -12,5 +12,6 @@ export default function Agenda() {
           <a href="#">Registre-se</a>
         </div>
       </nav>
-      <div className={styles.logo}>
-        <img=""
+    <div className={styles.logo}>
+    );
+}**/
